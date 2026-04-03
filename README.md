@@ -1,58 +1,54 @@
-\# 🖥️ SystemPulse
+<div align="center">
 
+# 🖥️ SystemPulse
 
+**A lightweight, portable Windows system monitor — no installation required.**
 
-A lightweight Windows system monitor — delivered as a single portable executable.
+[![Release](https://img.shields.io/github/v/release/Nexus007008/SystemPulse?style=for-the-badge&color=blue)](https://github.com/Nexus007008/SystemPulse/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey?style=for-the-badge&logo=windows)](https://github.com/Nexus007008/SystemPulse/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
 
+</div>
 
+---
 
-\## 📦 Download \& Run
+## 📥 Download & Run
 
+> No Python. No setup. Just download and go.
 
+1. Go to the [**Releases**](https://github.com/Nexus007008/SystemPulse/releases/latest) page
+2. Download `system_pulse.exe`
+3. Double-click and run ✅
 
-1\. Download `system\_pulse.exe` from the \[Releases](../../releases) page
+---
 
-2\. Double-click and run — no installation required
+## ✅ Requirements
 
+| Requirement | Status |
+|---|---|
+| Windows 10 / 11 (64-bit) | ✅ Required |
+| Python installed | ❌ Not needed |
+| Additional libraries | ❌ Not needed |
 
+---
 
-\## ✅ Requirements
+## 🚀 Features
 
+- 📊 **Real-time system monitoring**
+- 💾 **Fully portable** — runs from USB, Desktop, anywhere
+- 📦 **Single `.exe`** — no setup wizard, no dependencies
 
+---
 
-\- Windows 10 / 11 (64-bit)
+## 🔒 Security & Build
 
-\- No Python installation needed
+| Tool | Purpose |
+|---|---|
+| [PyArmor](https://pyarmor.readthedocs.io/) | Source code obfuscation |
+| [PyInstaller](https://pyinstaller.org/) | Self-contained executable bundling |
 
-\- No additional libraries needed
+---
 
+## 📄 License
 
-
-\## 🚀 Features
-
-
-
-\- Real-time system monitoring
-
-\- Fully portable — runs from USB, Desktop, anywhere
-
-\- Single `.exe`, no setup wizard
-
-
-
-\## 🔒 Notes
-
-
-
-\- The executable is obfuscated with \[PyArmor](https://pyarmor.readthedocs.io/) to protect the source code
-
-\- Built with \[PyInstaller](https://pyinstaller.org/) as a self-contained bundle
-
-
-
-\## 📄 License
-
-
-
-MIT License — see `LICENSE` for details
-
+Distributed under the **MIT License** — see [`LICENSE`](LICENSE) for details.
